@@ -1,7 +1,7 @@
 {
   "source": "luma-api",
   "calendar": "https://luma.com/omarchy",
-  "refreshed": "2026-10-11",
+  "refreshed": "2026-10-12",
   "events": [
     {
       "id": "evt-YDyCEwwpiMzSFDB",
@@ -1258,23 +1258,6 @@
       "coverHeight": 372
     },
     {
-      "id": "evt-2h0vxlgK0HC9Weh",
-      "title": "Omarchy DFW 001: Get Set Up, Show & Tell, and Dig In",
-      "url": "https://luma.com/pj5yrzgv",
-      "start": "2026-10-15T23:00:00.000Z",
-      "end": "2026-10-16T00:00:00.000Z",
-      "timezone": "America/Chicago",
-      "address": "Dallas, TX, USA",
-      "city": "Dallas",
-      "country": "US",
-      "online": false,
-      "geo": { "lat": 32.7766642, "lon": -96.79698789999999 },
-      "hosts": [],
-      "cover": "/images/meetups/evt-2h0vxlgK0HC9Weh-full.webp",
-      "coverWidth": 800,
-      "coverHeight": 800
-    },
-    {
       "id": "evt-hmlk47Yisq4H3Ec",
       "title": "Omarchy.bp #2",
       "url": "https://luma.com/muy9nzq5",
@@ -1611,6 +1594,23 @@
       "geo": { "lat": 41.8182047502129, "lon": -71.40889818478264 },
       "hosts": [],
       "cover": "/images/meetups/evt-QJjjJAicOtcPPCs-full.webp",
+      "coverWidth": 800,
+      "coverHeight": 800
+    },
+    {
+      "id": "evt-2h0vxlgK0HC9Weh",
+      "title": "Omarchy DFW 001: Get Set Up, Show & Tell, and Dig In",
+      "url": "https://luma.com/pj5yrzgv",
+      "start": "2026-11-10T00:30:00.000Z",
+      "end": "2026-11-10T01:30:00.000Z",
+      "timezone": "America/Chicago",
+      "address": "Carrollton Public Library at Hebron and Josey, 4220 N Josey Ln, Carrollton, TX 75010, USA",
+      "city": "Carrollton",
+      "country": "US",
+      "online": false,
+      "geo": { "lat": 33.0259, "lon": -96.8837255 },
+      "hosts": [],
+      "cover": "/images/meetups/evt-2h0vxlgK0HC9Weh-full.webp",
       "coverWidth": 800,
       "coverHeight": 800
     },
