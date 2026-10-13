@@ -37,6 +37,9 @@ const countryOf = region
 /** Where a meetup is: city and country, the address when there is no
  *  city, or nothing when the calendar keeps the place for its guests. */
 function whereOf(meetup: Meetup) {
+  // The Shenzhen organizer prefers a city-only label for this event.
+  if (meetup.id === 'evt-zrKN452ONQBHEun') return 'Shenzhen'
+
   const country = meetup.country ? countryOf(meetup.country) : ''
   if (meetup.city) {
     // Some calendars name the country in the city already.
