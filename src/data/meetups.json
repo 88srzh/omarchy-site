@@ -1224,23 +1224,6 @@
       "coverHeight": 800
     },
     {
-      "id": "evt-P1eGvzI9IGTUv8s",
-      "title": "Omarchy Istanbul Meetup 001",
-      "url": "https://luma.com/omarchy-istanbul",
-      "start": "2026-10-15T16:00:00.000Z",
-      "end": "2026-10-15T19:00:00.000Z",
-      "timezone": "Europe/Istanbul",
-      "address": "Komünite Space, Radisson Collection Hotel, Ayazağa, Azerbaycan Cd. No:3A, 34475 Sarıyer/İstanbul, Türkiye",
-      "city": "Sarıyer",
-      "country": "TR",
-      "online": false,
-      "geo": { "lat": 41.1085595, "lon": 28.986573300000003 },
-      "hosts": [],
-      "cover": "/images/meetups/evt-P1eGvzI9IGTUv8s-full.webp",
-      "coverWidth": 800,
-      "coverHeight": 800
-    },
-    {
       "id": "evt-7RaevM3wmKYKOW1",
       "title": "Omarchy Atlanta",
       "url": "https://luma.com/0esy9wrp",
@@ -1662,6 +1645,23 @@
       "geo": { "lat": 55.6084981, "lon": 12.998572099999999 },
       "hosts": [],
       "cover": "/images/meetups/evt-SrfYTm4gfXfmvv3-full.webp",
+      "coverWidth": 800,
+      "coverHeight": 800
+    },
+    {
+      "id": "evt-R1T3FoigSaT4BA6",
+      "title": "Omarchy London Meetup 002",
+      "url": "https://luma.com/fyb1dq1k",
+      "start": "2026-11-19T18:00:00.000Z",
+      "end": "2026-11-19T20:00:00.000Z",
+      "timezone": "Europe/London",
+      "address": "Wise, 65 Clifton St, London EC2A 4JE, UK",
+      "city": "London",
+      "country": "GB",
+      "online": false,
+      "geo": { "lat": 51.5223258, "lon": -0.0834298 },
+      "hosts": [],
+      "cover": "/images/meetups/evt-R1T3FoigSaT4BA6-full.webp",
       "coverWidth": 800,
       "coverHeight": 800
     },
