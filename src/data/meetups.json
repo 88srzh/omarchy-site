@@ -1,7 +1,7 @@
 {
   "source": "luma-api",
   "calendar": "https://luma.com/omarchy",
-  "refreshed": "2026-10-13",
+  "refreshed": "2026-10-14",
   "events": [
     {
       "id": "evt-YDyCEwwpiMzSFDB",
@@ -1611,6 +1611,23 @@
       "geo": { "lat": 33.0259, "lon": -96.8837255 },
       "hosts": [],
       "cover": "/images/meetups/evt-2h0vxlgK0HC9Weh-full.webp",
+      "coverWidth": 800,
+      "coverHeight": 800
+    },
+    {
+      "id": "evt-fOBbHL7vGIoNpHP",
+      "title": "3 Omarchy - Minas Brasil",
+      "url": "https://luma.com/s6l8z34p",
+      "start": "2026-11-10T22:00:00.000Z",
+      "end": "2026-11-10T23:00:00.000Z",
+      "timezone": "America/Sao_Paulo",
+      "address": "https://meet.jit.si/3minasbrasil",
+      "city": "Belo Horizonte",
+      "country": "BR",
+      "online": false,
+      "geo": { "lat": -19.91753, "lon": -43.9900546, "approximate": true },
+      "hosts": [],
+      "cover": "/images/meetups/evt-fOBbHL7vGIoNpHP-full.webp",
       "coverWidth": 800,
       "coverHeight": 800
     },
