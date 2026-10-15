@@ -1,7 +1,7 @@
 {
   "source": "luma-api",
   "calendar": "https://luma.com/omarchy",
-  "refreshed": "2026-10-14",
+  "refreshed": "2026-10-15",
   "events": [
     {
       "id": "evt-YDyCEwwpiMzSFDB",
@@ -1496,6 +1496,23 @@
       "coverHeight": 800
     },
     {
+      "id": "evt-vJucxg3YFBvvWCF",
+      "title": "Omarchy Cleveland 002",
+      "url": "https://luma.com/fih92bkb",
+      "start": "2026-10-29T22:00:00.000Z",
+      "end": "2026-10-29T23:00:00.000Z",
+      "timezone": "America/New_York",
+      "address": "Nervous Dog Coffee Bar, Beachwood, La Place, 2101 Richmond Rd, Beachwood, OH 44122, USA",
+      "city": "Beachwood",
+      "country": "US",
+      "online": false,
+      "geo": { "lat": 41.5003889, "lon": -81.4965522 },
+      "hosts": [],
+      "cover": "/images/meetups/evt-vJucxg3YFBvvWCF-full.webp",
+      "coverWidth": 800,
+      "coverHeight": 800
+    },
+    {
       "id": "evt-Go579QoFlyA9E5r",
       "title": "Omarchy Ghana",
       "url": "https://luma.com/fzp8rdnm",
@@ -1680,6 +1697,23 @@
       "hosts": [],
       "cover": "/images/meetups/evt-MwxCpSJVFMDYrGX-full.webp",
       "coverWidth": 720,
+      "coverHeight": 800
+    },
+    {
+      "id": "evt-qiN1tmB10AJNHS6",
+      "title": "Omarchy NWA 002: What's New, Show & Tell, Tips and Tricks",
+      "url": "https://luma.com/ummrysdi",
+      "start": "2026-12-08T23:30:00.000Z",
+      "end": "2026-12-09T01:00:00.000Z",
+      "timezone": "America/Chicago",
+      "address": "704 SE 5th St, Bentonville, AR 72712, USA",
+      "city": "Bentonville",
+      "country": "US",
+      "online": false,
+      "geo": { "lat": 36.3668749, "lon": -94.1998458 },
+      "hosts": [],
+      "cover": "/images/meetups/evt-qiN1tmB10AJNHS6-full.webp",
+      "coverWidth": 800,
       "coverHeight": 800
     }
   ]
