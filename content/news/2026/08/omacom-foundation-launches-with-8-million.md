@@ -31,7 +31,7 @@ These Founding Corporate Patrons are each contributing $1 million a year for thr
 - [Meta Superintelligence Labs](https://www.meta.com/superintelligence/)
 - [DigitalOcean](https://www.digitalocean.com/)
 - [Alibaba Cloud](https://www.alibabacloud.com/)
-- [SpaceXAI](https://x.ai/)
+- [SpaceXSI](https://x.ai/)
 
 These Distinguished Patrons are each contributing $100,000 to the mission:
 
@@ -78,7 +78,7 @@ We're going to make the prophecy of The Year of Linux on the Desktop come true. 
 
 *UPDATE: Alibaba Cloud [joined as a Founding Corporate Patron with $1 million a year for three years on September 22](/news/2026/09/alibaba-cloud-joins-as-founding-corporate-patron/).*
 
-*UPDATE: SpaceXAI [joined as a Founding Corporate Patron with $1.5 million in Grok tokens on October 8](/news/2026/10/spacexai-joins-as-founding-corporate-patron/).*
+*UPDATE: SpaceXSI [joined as a Founding Corporate Patron with $1.5 million in Grok tokens on October 8](/news/2026/10/spacexai-joins-as-founding-corporate-patron/).*
 
 *UPDATE: Namespace [joined as a Distinguished Corporate Patron with $100,000 a year in compute on October 9](/news/2026/10/namespace-joins-as-a-distinguished-corporate-patron/).*
 
