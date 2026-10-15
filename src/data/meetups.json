@@ -1394,23 +1394,6 @@
       "coverHeight": 800
     },
     {
-      "id": "evt-6ArZ35PUhtwJGGU",
-      "title": "Omarchy Doha - Meet & Tinker",
-      "url": "https://luma.com/9s4dh3xs",
-      "start": "2026-10-21T16:00:00.000Z",
-      "end": "2026-10-21T18:00:00.000Z",
-      "timezone": "Asia/Qatar",
-      "address": "Doha, Qatar",
-      "city": "Doha",
-      "country": "QA",
-      "online": false,
-      "geo": { "lat": 25.38548198737363, "lon": 51.485550266834316 },
-      "hosts": [],
-      "cover": "/images/meetups/evt-6ArZ35PUhtwJGGU-full.webp",
-      "coverWidth": 800,
-      "coverHeight": 800
-    },
-    {
       "id": "evt-4sc11tVaBGUxFeC",
       "title": "Catharchy - Omarchy Southern France meetup",
       "url": "https://luma.com/xaqlexaq",
@@ -1492,6 +1475,23 @@
       "geo": { "lat": 34.25343, "lon": -110.02816999999999 },
       "hosts": [],
       "cover": "/images/meetups/evt-E0xJ81sqOj9SPBg-full.webp",
+      "coverWidth": 800,
+      "coverHeight": 800
+    },
+    {
+      "id": "evt-6ArZ35PUhtwJGGU",
+      "title": "Omarchy Doha - Meet & Tinker",
+      "url": "https://luma.com/9s4dh3xs",
+      "start": "2026-10-28T16:00:00.000Z",
+      "end": "2026-10-28T18:00:00.000Z",
+      "timezone": "Asia/Qatar",
+      "address": "Doha, Qatar",
+      "city": "Doha",
+      "country": "QA",
+      "online": false,
+      "geo": { "lat": 25.38548198737363, "lon": 51.485550266834316 },
+      "hosts": [],
+      "cover": "/images/meetups/evt-6ArZ35PUhtwJGGU-full.webp",
       "coverWidth": 800,
       "coverHeight": 800
     },
