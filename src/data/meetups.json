@@ -317,7 +317,7 @@
       "end": "2026-09-10T13:00:00.000+00:00",
       "timezone": "Asia/Tokyo",
       "address": "〒180-0004 東京都武蔵野市吉祥寺本町1丁目14番9号 プレファス吉祥寺フロント10F",
-      "city": "東京都",
+      "city": null,
       "country": "JP",
       "online": false,
       "geo": { "lat": 35.6768601, "lon": 139.7638947, "approximate": true },
@@ -1477,6 +1477,23 @@
       "cover": "/images/meetups/evt-E0xJ81sqOj9SPBg-full.webp",
       "coverWidth": 800,
       "coverHeight": 800
+    },
+    {
+      "id": "evt-vCYUvJpPxLYfUxv",
+      "title": "2nd Omarchy Meetup Kuala Lumpur",
+      "url": "https://luma.com/niglrw2p",
+      "start": "2026-10-23T10:00:00.000Z",
+      "end": "2026-10-23T14:00:00.000Z",
+      "timezone": "Asia/Kuala_Lumpur",
+      "address": "KLGCC",
+      "city": "Kuala Lumpur",
+      "country": "MY",
+      "online": false,
+      "geo": { "lat": 3.1516964, "lon": 101.6942371, "approximate": true },
+      "hosts": [],
+      "cover": "/images/meetups/evt-vCYUvJpPxLYfUxv-full.webp",
+      "coverWidth": 600,
+      "coverHeight": 600
     },
     {
       "id": "evt-6ArZ35PUhtwJGGU",
