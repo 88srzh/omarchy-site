@@ -115,6 +115,11 @@
   "name": "Catppuccin Mocha Dark"
  },
  {
+  "repo": "https://github.com/tsak/omarchy-cga-theme",
+  "image": "/assets/themes/cga.webp",
+  "name": "CGA"
+ },
+ {
   "repo": "https://github.com/jkwuc89/omarchy-cincinnati-theme",
   "image": "/assets/themes/cincinnati.webp",
   "name": "Cincinnati"
