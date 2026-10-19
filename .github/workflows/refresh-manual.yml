@@ -3,12 +3,18 @@
 # this renders them into manual/ once a day and commits what changed.
 #
 # The render runs in Arch, like a hand run of bin/build-manual on Omarchy.
-# The script calls ImageMagick 7's `magick`, which Ubuntu does not ship, and
-# the same encoder writes byte-identical theme previews, so a scheduled run
-# and a hand run never take turns rewriting the same images.
+# The script calls ImageMagick 7's `magick`, which Ubuntu does not ship.
+# While both run current Arch, the same encoder writes byte-identical theme
+# previews, so a scheduled run and a hand run don't take turns rewriting them.
+#
+# Additions and edits go straight in. A chapter or image that disappears
+# fails the run instead: the site links to chapters and images by path, so
+# a rename or removal is done by hand, together with those links.
 #
 # Cloudflare Workers Builds deploys every push to master, this one
-# included, so the site is checked here before the push.
+# included, so the site is checked here before the push. A push with the
+# workflow's own token starts no other workflows, so this asks for the
+# deploy that leads to the language sites, whose search covers the manual.
 name: Refresh the manual
 
 on:
@@ -18,6 +24,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 # Serialize commits with the other automated content refreshes.
 concurrency:
@@ -49,6 +56,12 @@ jobs:
               ruby bin/build-manual /omarchy/manual
               chown -R "$OWNER" manual
             '
+          removed=$(git ls-files --deleted -- manual)
+          if [ -n "$removed" ]; then
+            echo "::error::omarchy removed or renamed manual files; refresh by hand and update what links to them:"
+            echo "$removed"
+            exit 1
+          fi
           if [ -z "$(git status --porcelain -- manual)" ]; then
             echo "The manual is current."
           else
@@ -74,6 +87,7 @@ jobs:
           npm run parity
 
       - name: Commit what changed
+        id: commit
         if: steps.render.outputs.changed == 'true'
         env:
           SOURCE: ${{ steps.source.outputs.commit }}
@@ -88,3 +102,10 @@ jobs:
           git restore .
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin HEAD:"${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy what changed
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref "${GITHUB_REF_NAME}"
