@@ -1411,23 +1411,6 @@
       "coverHeight": 800
     },
     {
-      "id": "evt-PxPJVCnzOvx3MSu",
-      "title": "Linux & Omarchy Meetup - Northampton, UK",
-      "url": "https://luma.com/da9jp6p4",
-      "start": "2026-10-22T15:00:00.000Z",
-      "end": "2026-10-22T17:30:00.000Z",
-      "timezone": "Europe/London",
-      "address": "Vulcan Works, 34-38 Guildhall Rd, Northampton NN1 1EW, UK",
-      "city": "Northampton",
-      "country": "GB",
-      "online": false,
-      "geo": { "lat": 52.235849599999995, "lon": -0.8944494 },
-      "hosts": [],
-      "cover": "/images/meetups/evt-PxPJVCnzOvx3MSu-full.webp",
-      "coverWidth": 800,
-      "coverHeight": 800
-    },
-    {
       "id": "evt-L8yDpMHRCzOsQT6",
       "title": "Jacksonville Omarchy Meetup",
       "url": "https://luma.com/qnsm7fwq",
