@@ -1,73 +1,9 @@
 <!doctype html>
-
+<!-- Generated content source; rendered for visitors by the React site. -->
 <html lang="en">
-  <head>
-    <title>Networking — The Omarchy Manual</title>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    <meta name="description" content="Networking in Omarchy is handled by NetworkManager, and you drive it from the network icon in the top bar or with Super + Ctrl + W.">
-
-    <meta property="og:site_name" content="Omarchy">
-    <meta property="og:title" content="Networking">
-    <meta property="og:description" content="Networking in Omarchy is handled by NetworkManager, and you drive it from the network icon in the top bar or with Super + Ctrl + W.">
-    <meta property="og:image" content="https://omarchy.org/assets/images/opengraph.png">
-    <meta property="og:url" content="https://omarchy.org/manual/networking/">
-    <meta property="og:type" content="article">
-
-    <link rel="icon" href="/assets/images/favicon.png">
-
-    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/root.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/elements.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/header.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/pre.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/manual.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/search.css">
-
-    <script src="/assets/js/manual.js" type="module"></script>
-    <script defer data-domain="omarchy.org" src="https://plausible.io/js/script.js"></script>
-  </head>
-
-  <body>
-    <div class="pre">
-      <a href="/">
-<pre>
-                 ▄▄▄
- ▄█████▄    ▄███████████▄    ▄███████   ▄███████   ▄███████   ▄█   █▄    ▄█   █▄
-███   ███  ███   ███   ███  ███   ███  ███   ███  ███   ███  ███   ███  ███   ███
-███   ███  ███   ███   ███  ███   ███  ███   ███  ███   █▀   ███   ███  ███   ███
-███   ███  ███   ███   ███ ▄███▄▄▄███ ▄███▄▄▄██▀  ███       ▄███▄▄▄███▄ ███▄▄▄███
-███   ███  ███   ███   ███ ▀███▀▀▀███ ▀███▀▀▀▀    ███      ▀▀███▀▀▀███  ▀▀▀▀▀▀███
-███   ███  ███   ███   ███  ███   ███ ██████████  ███   █▄   ███   ███  ▄██   ███
-███   ███  ███   ███   ███  ███   ███  ███   ███  ███   ███  ███   ███  ███   ███
- ▀█████▀    ▀█   ███   █▀   ███   █▀   ███   ███  ███████▀   ███   █▀    ▀█████▀
-                                       ███   █▀
-</pre>
-      </a>
-    </div>
-
-    <header class="header">
-      <h1>The Manual</h1>
-    </header>
-
-    <main class="main">
-  <div class="manual manual--chapter">
+<head><meta charset="utf-8"><title>Networking</title></head>
+<body><main>  <div class="manual manual--chapter">
     <div class="manual__sidebar">
-      <search class="search" hidden>
-        <div class="search__field">
-          <input class="search__input" id="search" type="search" role="combobox"
-                 placeholder="Search" aria-label="Search the manual"
-                 aria-controls="search-results" aria-expanded="false" aria-autocomplete="list"
-                 autocomplete="off" autocapitalize="off" spellcheck="false">
-          <kbd class="search__shortcut">/</kbd>
-        </div>
-
-        <div class="search__results" id="search-results" role="listbox" aria-label="Search results" hidden></div>
-      </search>
       <nav class="manual__toc" aria-label="Chapters">
         <ol>
           <li><a href="/manual/">Welcome to Omarchy!</a></li>
@@ -163,7 +99,7 @@
 
 <p><a href="https://tailscale.com/">Tailscale</a> is a mesh VPN that makes reaching all your computers and servers over the internet simple and secure. Install it with <em>Install &gt; Service &gt; Tailscale</em>.</p>
 
-<p>That gives you a Tailscale panel in the bar, which connects and disconnects the tailnet, switches accounts, and picks an exit node — your own machines and Mullvad regions both show up in the list. It also browses your machines, and that’s where Taildrop lives: select a machine and press <code>s</code> to send it files, or <code>c</code>, <code>n</code>, and <code>d</code> to copy its IP, name, or full DNS name. The terminal equivalent is <code>omarchy tailscale send &lt;machine&gt; [file...]</code>, and files sent to you land in <code>~/Downloads</code> automatically.</p>
+<p>That gives you a Tailscale panel in the bar, which connects and disconnects the tailnet, switches accounts, and picks an exit node — your own machines and Mullvad regions both show up in the list. It also browses your machines, and that’s where Taildrop lives: select a machine and press <code>s</code> to send it files, or <code>c</code>, <code>n</code>, and <code>d</code> to copy its IP, name, or full DNS name. The terminal equivalent is <code>omarchy tailscale send &lt;machine&gt; [file...]</code>, and files sent to you land in <code>~/Downloads</code> automatically. The notification announcing an arrival waits until you click it open or dismiss it, so a file that turns up while you’re away from the machine is still there to answer when you get back.</p>
 
 <p>Installing it also adds a web app for the Tailscale admin console.</p>
 
@@ -171,14 +107,7 @@
 
 <p>Before rebooting, try restarting the offending piece on its own. <em>Update &gt; Hardware</em> has Wi-Fi, Bluetooth, Audio, and Trackpad, and reloading one of those clears up most “it worked five minutes ago” situations. See <a href="../troubleshooting/">troubleshooting</a>.</p>
 
-      <nav class="manual__pagination">
-        <a class="manual__pagination-previous" href="/manual/keyboard-mouse-trackpad/" rel="prev">← Keyboard, Mouse, Trackpad</a>
-        <a class="manual__pagination-contents" href="/manual/toc/">Table of Contents</a>
-        <a class="manual__pagination-next" href="/manual/system-sleep/" rel="next">System sleep →</a>
-      </nav>
     </article>
   </div>
-    </main>
-
-  </body>
+</main></body>
 </html>
