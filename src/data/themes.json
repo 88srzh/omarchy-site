@@ -330,6 +330,11 @@
   "name": "Japan Night"
  },
  {
+  "repo": "https://github.com/Anhelm01/omarchy-kupola-theme",
+  "image": "/assets/themes/kupola.webp",
+  "name": "Kupola"
+ },
+ {
   "repo": "https://github.com/thisisgm/omarchy-lamplight-theme",
   "image": "/assets/themes/lamplight.webp",
   "name": "Lamplight"
