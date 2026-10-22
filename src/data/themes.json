@@ -160,6 +160,11 @@
   "name": "CpUnk"
  },
  {
+  "repo": "https://github.com/PedroAugustoOK/omarchy-crimson-theme",
+  "image": "/assets/themes/crimson.webp",
+  "name": "Crimson"
+ },
+ {
   "repo": "https://github.com/knappkevin/omarchy-crimson-gold-theme",
   "image": "/assets/themes/crimson-gold.webp",
   "name": "Crimson Gold"
